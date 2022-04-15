@@ -130,6 +130,7 @@ const Form = () => {
       const dataObject = JSON.parse(data);
       const preparedRows = prepareRows(dataObject);
       setRows(preparedRows);
+      storeData(preparedRows);
     } catch (error) {
       Alert.alert('Oops, something went wrong');
     }
