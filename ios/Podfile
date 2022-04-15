@@ -21,6 +21,8 @@ target 'StepnDiary' do
 
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 
+  pod 'RNCClipboard', :path => '../node_modules/@react-native-clipboard/clipboard'
+
   target 'StepnDiaryTests' do
     inherit! :complete
     # Pods for testing
